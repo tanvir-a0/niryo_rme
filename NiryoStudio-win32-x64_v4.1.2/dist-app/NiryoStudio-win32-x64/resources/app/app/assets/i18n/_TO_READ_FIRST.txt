@@ -1,0 +1,16 @@
+--- How to add a new language ---
+
+To add a new language you need to do 2 things inside this folder.
+Let's take an example with the Italian language: "it".
+
+1. Add an 'it.json' file in this folder and translate all the fields from 'en.json' (default)
+
+2. Add "it" in the '_language.json' file -> "supported_languages"
+
+3. (Optional): if you want to make Italian the default language,
+change the "default_language" field to "it".
+
+Repeat this process for any new language you want to add.
+
+--> If a new Niryo Studio version is released, you just have to do those steps
+again (copy/paste your existing translation files), and update the new fields.

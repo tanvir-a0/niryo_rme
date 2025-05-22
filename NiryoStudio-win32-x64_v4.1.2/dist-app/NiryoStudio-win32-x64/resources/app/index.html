@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Niryo Studio</title>
+  <base href="/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="/electron-load.js"></script>
+
+  <!-- ROS lib js -->
+  <script src="/app/assets/js/eventemmiter2.js"></script>
+  <script src="/app/assets/js/roslibjs-20.js"></script>
+
+  <!-- ROS 3d js -->
+  <script src="/app/assets/ros/three.min.js"></script>
+  <script src="/app/assets/ros/STLLoader.js"></script>
+  <script src="/app/assets/ros/ros3d.min.js"></script>
+
+  <!-- Blockly -->
+  <script src="/app/assets/blockly/blockly_compressed.js"></script>
+  <script src="/app/assets/blockly/blocks_compressed.js"></script>
+  <script src="/app/assets/blockly/python_compressed.js"></script>
+
+  <script src="/app/assets/blockly/en.js"></script>
+
+  <script src="/app/assets/blockly/niryo_one_blocks.js"></script>
+  <script src="/app/assets/blockly/niryo_one_python_generators.js"></script>
+
+<link rel="stylesheet" href="styles.7b41e74141ef50c2270d.css"></head>
+<!--<body style="background-color:#111;color:#ddd;">-->
+
+<body>
+  <div id="changeBlocklyVariableNameDiv" style="visibility: hidden;">
+    <div>
+      <p id="changeVariableNameInstruction"></p>
+      <input type="text" id="newBlocklyVariableNameInput"></input>
+      <button onclick="changeVariableNameButtonPressed()">OK</button>
+      <button onclick="cancelRenameBlocklyVariable()">X</button>
+    </div>
+  </div>
+
+  <app-covalent>
+    <div style="padding: 20%;text-align:center;">
+      <h3>Niryo Studio is loading...</h3>
+    </div>
+  </app-covalent>
+<script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.d4012edc49d02112c1d7.js" defer></script><script src="scripts.5ca01240108b6f56825b.js" defer></script><script src="main.5e4f23c3b0f0ae6c0f11.js" defer></script></body>
+
+</html>

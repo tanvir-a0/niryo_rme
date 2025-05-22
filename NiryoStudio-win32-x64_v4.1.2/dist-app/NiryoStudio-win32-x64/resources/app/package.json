@@ -1,0 +1,33 @@
+{
+  "name": "niryo-studio",
+  "version": "4.1.2",
+  "description": "Niryo Studio (electron)",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Covalent",
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "license": "copyrights",
+  "author": "Niryo",
+  "contributors": [
+    "Edouard Renard <e.renard@niryo.com>"
+  ],
+  "dependencies": {
+    "compare-versions": "^3.5.1",
+    "deepcopy": "^2.0.0",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "v8-compile-cache": "^2.1.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
+}

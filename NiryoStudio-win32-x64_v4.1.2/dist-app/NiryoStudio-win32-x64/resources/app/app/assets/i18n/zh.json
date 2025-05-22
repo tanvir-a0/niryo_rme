@@ -1,0 +1,542 @@
+{
+    "ARM": {
+        "ARM_COMMAND": "Arm命令",
+        "JOINT": "关节",
+        "JOINTS": "关节",
+        "POSE": "位姿",
+        "POSITION": "位置",
+        "POSITION_ABRV": "Pos",
+        "ORIENTATION": "姿态",
+        "ROLL": "roll",
+        "PITCH": "pitch",
+        "YAW": "yaw",
+        "MOVE_JOINTS": "移动关节",
+        "MOVE_POSE": "移动位姿",
+        "STOP_COMMAND": "停止命令",
+        "SET_TO_CURRENT": "设置为当前",
+        "BACK_TO_HOME": "回到home位置",
+        "SELECT_SAVED_POSITION": "选择保存位置",
+        "ARM_MAX_SPEED": "Arm最大速度",
+        "TCP_SPEED": "TCP speed",
+        "UNIT_TCP_SPEED": "m/s"
+    },
+    "JOINT": {
+        "ACTUAL_JOINT": "实际关节",
+        "MAXIMUN_LIMIT": "最大限制",
+        "MINIMUN_LIMIT": "最低限制",
+        "ALERT_CALL": "警告关节限制",
+        "ALERT_INFOS": "请移动所有的关节到正确的位置"
+    },
+    "TOOL": {
+        "TOOL_COMMAND": "工具命令",
+        "TOOL": "工具",
+        "CURRENT_TOOL": "当前工具",
+        "SELECT": "选择",
+        "SCAN": "扫描",
+        "NO_TOOL_SELECTED": "未选择工具",
+        "SELECTED_TOOL": "选定的工具",
+        "OPEN": "打开",
+        "CLOSE": "关闭",
+        "OPEN_SPEED": "打开速度",
+        "CLOSE_SPEED": "关闭速度",
+        "SETUP": "设置",
+        "ON": "开",
+        "OFF": "关",
+        "SELECT_PIN": "选择PIN",
+        "GRIPPER_1": "标准夹爪",
+        "GRIPPER_2": "大号夹爪",
+        "GRIPPER_3": "自适应夹爪",
+        "VACUUM_PUMP_1": "真空泵",
+        "ELECTROMAGNET_1": "电磁铁"
+    },
+    "DIGITAL_IO_PANEL": {
+        "DIGITAL_IO_PANEL": "数字I/O面板",
+        "CONNECT_TO_ENABLE": "数字I/O面板不可用",
+        "VOLTAGE_WARNING": "警告:如果施加电压超过额定值，可能会损坏机器人。(SW: 12V, GPIO: 5V)",
+        "OUTPUT_ONLY": "仅输出"
+    },
+    "NIRYO_BLOCKS": {
+        "CLEAR_WORKSPACE": "清除工作区",
+        "UNDO": "撤销",
+        "REDO": "重做",
+        "ADD_BLOCK": "添加块",
+        "IMPORT_EXPORT_BLOCKS": "导入/导出块",
+        "SAVE_MODE": "按下机器人按钮进行保存"
+    },
+    "POSITION": {
+        "SAVED_POSITIONS": "保存的位置",
+        "NAME": "名称",
+        "DESCRIPTION": "描述",
+        "EDIT_POSITION": "编辑位置",
+        "EDIT_NAME": "编辑名称",
+        "SAVE": "保存",
+        "SELECT_POSITION": "选择位置",
+        "CREATE_NEW_POSITION": "创建一个新位置",
+        "SELECT_MODE": "保存模式"
+    },
+    "FRAMES": {
+        "SAVED_FRAME": "保存的动态帧",
+        "NAME": "姓名",
+        "DESCRIPTION": "描述",
+        "EDIT_FRAME": "编辑框架",
+        "EDIT_NAME": "编辑名称",
+        "SAVE": "保存",
+        "SELECT_FRAME": "选择框架",
+        "CREATE_NEW_FRAME": "创建新框架",
+        "SELECT_MODE": "保存模式",
+        "NEXT": "下一个",
+        "OK": "好的",
+        "SAVE_POSITION": "保存位置",
+        "SAVE_FRAME": "保存帧",
+        "PREVIOUS": "以前的",
+        "CREATE_FRAME_STEP_0": "为机器人手臂配备工具提示",
+        "CREATE_FRAME_STEP_1": "将手臂移动到原点",
+        "CREATE_FRAME_STEP_2": "将手臂移动到该点",
+        "CREATE_FRAME_STEP_3": "将手臂移动到该点",
+        "CREATE_FRAME_STEP_4": "更改框架名称并单击保存框架",
+        "CREATE_FRAME_AXIS_2": " X",
+        "CREATE_FRAME_AXIS_3": " 和"
+      },
+    "SOUND": {
+        "SAVED_SOUNDS": "Saved Sounds",
+        "NAME": "Name",
+        "DURATION": "Duration",
+        "IMPORT_SOUND": "Import Sound",
+        "IMPORT_SOUND_BUTTON": "Select file",
+        "CANCEL": "Cancel",
+        "CONFIRM": "Confirm",
+        "SOUND_NAME": "Sound name",
+        "SOUND_DELETE_TITLE": "Sound deletion",
+        "SOUND_DELETE_CONFIRMATION": "Are you sure you remove this sound ?",
+        "ERROR_SIZE": "File size too large (max 9.5 MB)",
+        "ERROR_TYPE": "File type not supported (WAV, MP3 only)"
+    },
+    "TRAJECTORY": {
+        "SAVED_TRAJECTORIES": "Saved Trajectories",
+        "NAME": "Name",
+        "DESCRIPTION": "Description",
+        "EDIT_TRAJECTORY": "Edit Trajectory",
+        "EDIT_NAME": "Edit Name",
+        "SAVE": "Save",
+        "SELECT_TRAJECTORY": "Select Trajectory",
+        "CREATE_NEW_TRAJECTORY": "Create New Trajectory",
+        "SELECT_MODE": "Save mode",
+        "GO_TO_FIRST_POINT": "Go to first point"
+    },
+    "FRAMES_VISUALIZATION": {
+        "FRAMES": "轴",
+        "TCP": "TCP",
+        "LEGEND": "说明文字"
+    },
+    "SEQUENCE": {
+        "SEQUENCE_AUTORUN": "序列自动运行",
+        "TRIGGERED_BY_TOP_BUTTON": "由顶部按钮触发",
+        "SEQUENCE": "序列",
+        "SEQUENCES": "序列",
+        "SELECT_SEQUENCE": "选择序列",
+        "CREATE_NEW_SEQUENCE": "创建新序列",
+        "ID": "ID",
+        "NAME": "名称",
+        "DESCRIPTION": "描述",
+        "BLOCKLY_XML": "Blockly XML",
+        "PYTHON_CODE": "Python 代码",
+        "SHOW": "显示",
+        "HIDE": "隐藏",
+        "EXECUTE_SEQUENCE": "执行序列",
+        "OPEN_IN_NIRYO_BLOCKS": "在Niryo块中打开序列",
+        "SAVE": "保存",
+        "AUTORUN" : {
+            "ENABLED": "已启用",
+            "DISABLED": "已禁用",
+            "MODE": "模式",
+            "LOOP": "循环",
+            "ONE_SHOT": "一次",
+            "CHANGE_MODE": "更改模式",
+            "ADD": "添加",
+            "LOOP_TOOLTIP": "机器人将无限循环地重复所有序列。按一次顶部按钮可停用自动运行。",
+            "ONE_SHOT_TOOLTIP": "该机器人将做一个序列并停止。按顶部的按钮来激活机器人下一序列",
+            "CONNECT_TO_ROBOT_FIRST": "您需要首先连接到机器人。"
+        }
+    },
+    "ALERT": {
+        "MOTOR_CONNECTION_PROBLEM": "电机连接问题 ",
+        "CALIBRATION_NEEDED": "需要校准",
+        "MOTOR_DEBUG_MODE_ON": "电机调试模式：ON",
+        "WAIT_CONNECTION": "正在加载",
+        "WAIT_UPDATE": "正在更新",
+        "MOTOR_DEBUG_MODE_ON_TOOLTIP": "一个或多个电动机被禁用",
+        "CAMERA_CALIBRATION_NEEDED": "需要进行相机校准",
+        "MOTOR_REBOOT_NEEDED": "需要重新启动电机",
+        "OUT_OF_BOUNDS_JOINTS": "一个或多个轴超出范围"
+    },
+    "CALIBRATION": {
+        "ROBOT_CALIBRATION": "机器人校准",
+        "AUTO_CALIBRATION": "自动校准",
+        "MANUAL_CALIBRATION": "手动校准",
+        "REQUEST_NEW_CALIBRATION": "请求新的校准",
+        "HOW_TO_CALIBRATE_NIRYO_ROBOT": "如何校准Niryo机器人？",
+        "CALIBRATION_INSTRUCTION_1": "1 如果这是您第一次使用机器人，则需要使用自动校准（请移除或清理机器人附近的杂物，以避免在校准期间发生碰撞）",
+        "CALIBRATION_INSTRUCTION_2": "2.然后，您每次需要校准机器人时都可以使用手动校准（它的速度要快得多，并且不会降低精度）。",
+        "CALIBRATION_INSTRUCTION_3": "- 要使用手动校准，请将机器人置于原始位置（将机器人侧面的小箭头对齐）",
+        "CALIBRATION_INSTRUCTION_4": "- 然后单击'Manual Calibration'，就这样！机器人的校准将与上次使用Auto Calibration时的校准完全相同。",
+        "CALIBRATION_INSTRUCTION_5": "- 如果您注意到校准不正确，则始终可以运行新的自动校准。"
+    },
+    "ROBOT_CONNECTION": {
+        "ROBOT_CONNECTION": "机器人连接",
+        "SELECT_ROBOT_IP": "选择机器人IP",
+        "CHOOSE_AN_IP": "选择一个IP",
+        "PORT": "端口",
+        "OR": "或",
+        "CHOOSE": "选择",
+        "TOOLTIP_SELECTED_ID": "您选择的IP地址",
+        "TOOLTIP_SEARCH_ROBOTS": "查找在您的Wi-Fi网络中连接的机器人。IP地址将显示在上面的“选择框”。（在Windows上，请确保在防火墙中例外中添加Niryo Studio）",
+        "TOOLTIP_CUSTOM_IP": "您可以从上面的框中选择一个IP，或在此处手动选择一个。",
+        "CONNECTED_TO": "已连接",
+        "NOT_CONNECTED": "未连接",
+        "CONNECT_TO_NIRYO_ROBOT": "连接到Niryo机器人",
+        "DISCONNECT_FROM_NIRYO_ROBOT": "与Niryo机器人断开连接"
+    },
+    "JOYSTICK": {
+        "JOYSTICK": "操作手柄",
+        "ENABLED": "已启用",
+        "DISABLED": "已禁用"
+    },
+    "3D_VIEW": "3D视图",
+    "CAMERA_STREAMING": "相机流",
+    "LEARNING_MODE": "学习模式",
+    "FREE_MOTION": "Free Motion",
+    "WIFI_SETTINGS": {
+        "ROBOT_SETTINGS": "机器人设置",
+        "ROBOT_CONNECTION": "机器人连接",
+        "ROBOT_WIFI_SETTINGS": "机器人Wifi设置",
+        "SOUND_SETTINGS": "Sound Settings",
+        "SOUND_VOLUME": "Sound volume",    
+        "SHARING_ALLOWED": "Allow data sharing", 
+        "CURRENT_SELECTED_ROBOT_IP": "当前选择的机器人IP",
+        "WIFI_NAME": " Wi-Fi名称",
+        "WIFI_PASSWORD": "Wi-Fi密码",
+        "CONNECT_ROBOT_TO_WIFI": "将机器人连接到Wi-Fi",
+        "SWITCH_ROBOT_TO_HOTSPOT_MODE": "将机器人切换到热点模式",
+        "ROBOT_NAME": "机器人名称",
+        "CHOOSE_ROBOT_NAME": "选择机器人名称",
+        "SET_ROBOT_NAME": "设置机器人名称",
+        "ROBOT_NAME_TOOLTIP": "此名称将用于在Wi-Fi网络中轻松找到该机器人，并命名热点网络。您需要重新启动机器人生效新名称。",
+        "HOW_TO_CONNECT_TO_WIFI": "如何将机器人连接到Wi-Fi网络？",
+        "WIFI_INSTRUCTION_1": "1.如果机器人上的LED为蓝色（热点模式）->检查以'Niryo_Robot'开头的Wi-Fi网络，并将您的计算机连接至该网络（密码：'niryorobot'）。",
+        "WIFI_INSTRUCTION_2": "2.通过单击右上角的小箭头打开菜单'ROBOT CONNECTION'。选择Niryo Robot热点IP地址（10.10.10.10），然后单击'Connect to Niryo Robot'。",
+        "WIFI_INSTRUCTION_3": "3.在左侧填写Wi-Fi名称和密码的名称，然后单击“将机器人连接到Wi-Fi”。",
+        "WIFI_INSTRUCTION_4": "4.将您的计算机重新连接到该Wi-Fi网络（机器人也会尝试连接）。",
+        "WIFI_INSTRUCTION_5": "5.请等待20秒左右，LED指示灯变为绿色，表示机器人已连接到Wi-Fi网络。",
+        "WIFI_INSTRUCTION_6_A": " 6.您现在可以使用",
+        "WIFI_INSTRUCTION_6_B": "找到Niryo机器人IP的按钮。",
+        "WIFI_INSTRUCTION_7": "7.一旦获得IP，请在右侧选项卡的框中选择它，然后单击'Connect to Niryo Robot'。",
+        "AFTER_CLICK_ON_CONNECT_TO_WIFI_1": "机器人将尝试连接到Wi-Fi",
+        "AFTER_CLICK_ON_CONNECT_TO_WIFI_2_A": "如果成功：LED将变为绿色。您将能够连接到Wi-Fi",
+        "AFTER_CLICK_ON_CONNECT_TO_WIFI_2_B": "然后连接到机器人。",
+        "AFTER_CLICK_ON_CONNECT_TO_WIFI_3": "如果失败：机器人仍将处于热点模式（约30秒后蓝色LED）。",
+        "AFTER_CLICK_ON_HOTSPOT_MODE": "当LED变为蓝色时，机器人将处于热点模式。",
+        "SETUP": "Wifi设置"
+    },
+    "NETWORK_SETTINGS": {
+        "RESET_SETTINGS": "Reset settings",
+        "DHCP": "DHCP",
+        "ETHERNET": "Ethernet",
+        "GATEWAY": "Gateway",
+        "SUBMASK": "Sub mask",
+        "IP_ADDRESS": "IP Address",
+        "DNS": "DNS",
+        "REQUIRED_FIELD": "This field is mandatory.",
+        "INVALID_IP": "Ipadddress is invalid",
+        "SAVE": "Save",
+        "CANCEL": "Cancel",
+        "CONFIRM": "Confirm",
+        "RESET_TITLE": "Reset network settings",
+        "RESET_CONFIRMATION": "Are you sure you reset network settings ?"
+    },
+    "ROBOT_TCP": {
+        "INFO": "机器人工具中心点",
+        "ENABLE": "启用",
+        "SET": "设置",
+        "RESET": "复位"
+    },
+    "ROBOT_INFO": {
+        "INFO": "机器人信息",
+        "SERIAL_NUMBER": "序列号",
+        "SERIAL_ERROR": "不可用"
+    },
+    "RPI_SETTINGS": {
+        "RPI_SETTINGS": "Raspberry Pi设置",
+        "ROS_LOGS": "ROS日志",
+        "AVAILAIBLE_DISK_SIZE_ON_RPI": "RPi上可用的磁盘大小",
+        "ROS_LOG_SIZE": "ROS日志大小",
+        "PURGE_ROS_LOGS_ON_STARTUP": "在RPi启动时清除ROS日志",
+        "ROS_LOG_TOOLTIP": "仅当您想查看RPI上的日志以进行调试时才禁用。如果RPI已满，则机器人可能会遇到一些启动问题。",
+        "YES": "是",
+        "NO": "否",
+        "OR": "或",
+        "CHANGE": "更改",
+        "PURGE_ROS_LOGS": "清除ROS日志",
+        "SHUTDOWN_ROBOT": "关机机器人",
+        "SHUTDOWN_NIRYO_ROBOT": "关闭Niryo机器人",
+        "REBOOT": "重新启动"
+    },
+    "SOFTWARE_VERSIONS": {
+        "SOFTWARE_VERSIONS": "软件版本",
+        "ROBOT_SOFTWARE_VERSIONS": "机器人软件版本",
+        "CURRENT_VERSION": "当前版本",
+        "CONNECT_TO_ROBOT": "连接到机器人以获取当前版本。",
+        "LATEST_AVAILABLE_VERSION": "最新版本",
+        "UPDATE_TO_LATEST_VERSION": "更新为最新版本",
+        "COULD_NOT_GET_LATEST_VERSION": "无法获取最新版本。请确保您已连接到Internet。",
+        "RETRY": "Retry"
+    },
+    "HARDWARE_STATUS": {
+        "HARDWARE_STATUS": "硬件状态",
+        "NIRYO_ROBOT_HARDWARE_VERSION": "Niryo机器人版本",
+        "RASPBERRY_PI_TEMPERATURE": "Raspberry Pi温度",
+        "MOTOR": "电机",
+        "VOLTAGE_ABRV": "伏特",
+        "ERROR_CODE": "错误代码",
+        "SIMULATION_CODE": "硬件状态不可用"
+    },
+    "DEBUG": {
+        "LOG": {
+            "NIRYO_ROBOT_STUDIO_LOGS": "Niryo Studio日志",
+            "ROBOT_ROS_LOGS": "机器人日志（ROS）",
+            "SAVE_LOGS": "保存日志文件"
+        },
+        "MOTOR": {
+            "MOTOR_DEBUG_OPTIONS": "电机调试选项",
+            "STOP_DEBUG_MOTOR": "停止电动机报告",
+            "INFO_1": "请将机器人移动到home位置，并确保在机器人周围有空间。",
+            "INFO_2": "在报告完成之前，请勿触摸机器人。",
+            "NOT_CONNECTED": "未连接到Niryo机器人。",
+            "INSTRUCTION_1": "警告：仅用于调试目的。",
+            "INSTRUCTION_2": "取消选中电机以将其禁用。机器人将使用新配置重新启动。完成测试后，请不要忘记重新启用所有电机。",
+            "CHANGE_CONFIG_AND_REBOOT": "更改配置并重新启动",
+            "ENABLE_DEBUG_MODE": "启用调试模式",
+            "SIMULATION_MODE": "仿真模式",
+            "LAUNCH_MOTORS_REPORT": "启动电机报告",
+            "UPDATE_MOTORS": "Update Motors",
+            "REBOOT_MOTORS": "重新启动电机",
+            "TOOL_REBOOT": "工具重启",
+            "WARNING": "警告",
+            "POPUP_REBOOT_MOTORS": {
+              "TITLE": "Reboot motors",
+              "STEP1": {
+                "DESCRIPTION": "The robot's axis motors will restart. Stay alert to avoid possible collisions with the robot.",
+                "NEXT": "Next"
+              },
+              "STEP2": {
+                "DESCRIPTION": "Place the robot in the Home position using the FreeMotion on the arm.",
+                "NEXT": "I confirm that the robot is in the Home position"
+              }
+            }
+        }
+    },
+    "POPUP": {
+        "ADD_POSITION_BLOCK": {
+            "ADD_POSITION_BLOCK": "添加位置块",
+            "OR": "或",
+            "CURRENT_POSITION": "当前位置",
+            "CANCEL": "取消",
+            "ADD_BLOCK": "添加块"
+        },
+        "IMPORT_EXPORT_BLOCKS_XML": {
+            "IMPORT_EXPORT_BLOCKS_XML": "导入/导出Niryo块",
+            "SAVE_AS_SEQUENCE_ON_ROBOT": "直接在机器人上另存为序列",
+            "EXPORT_XML_TO_COMPUTER": "将块导出到您的计算机（XML）",
+            "IMPORT_XML_FROM_COMPUTER": "从计算机（XML）导入块",
+            "CANCEL": "取消",
+            "OK": "好的"
+        },
+        "SOFTWARE_UPDATE": {
+            "SOFTWARE_UPDATE_REQUIRED": "需要软件更新",
+            "UPDATE": "更新"
+        },
+        "SHUTDOWN_RPI": {
+            "TITLE": "您确定吗？",
+            "MESSAGE": "您确定要关闭Raspberry Pi板吗？",
+            "CANCEL": "取消",
+            "SHUTDOWN": "关机"
+        },
+        "REBOOT_RPI": {
+            "TITLE": "您确定吗？",
+            "MESSAGE": "您确定要重新启动Raspberry Pi板吗？如果是，请不要在重新启动机器人时关闭电源。",
+            "CANCEL": "取消",
+            "REBOOT": "重新启动"
+        },
+        "DEBUG_MOTORS": {
+            "TITLE": "您确定吗？",
+            "MESSAGE": "此操作将禁用某些电动机（未选中的框），并启用其他电动机（已选中的框。）在重新启动机器人时，请勿关闭电源。此外，请确保在重启后重新启用所有电动机完成您的测试。",
+            "CANCEL": "取消",
+            "CHANGE_CONFIG_AND_REBOOT_ROBOT": "更改配置并重新启动机器人"
+        },
+        "SIMULATION_MODE": {
+            "TITLE": "禁用所有电动机进行仿真",
+            "MESSAGE": "这将仅禁用机器人上的所有电动机。注意：您仍然需要连接到Niryo机器人以查看机器人3D视图。然后，您需要重新激活所有电动机才能使用该机器人。",
+            "CANCEL": "取消",
+            "OK": "好的"
+        },
+        "DELETE_SEQUENCE": {
+            "TITLE": "删除序列",
+            "MESSAGE": "您确定要删除此序列吗？",
+            "CANCEL": "取消",
+            "DELETE": "删除"
+        },
+        "DELETE_POSITION": {
+            "TITLE": "删除位置",
+            "MESSAGE": "您确定要删除此位置吗？",
+            "CANCEL": "取消",
+            "DELETE": "删除"
+        },
+        "DELETE_FRAME": {
+            "TITLE": "删除框架",
+            "MESSAGE": "您确定要删除此框架吗？",
+            "CANCEL": "取消",
+            "DELETE": "删除"
+          },
+        "DELETE_PROGRAM": {
+            "TITLE": "删除程序",
+            "MESSAGE": "您确定要删除此程序吗？",
+            "CANCEL": "取消",
+            "DELETE": "删除"
+        },
+        "OVERWRITE_PROGRAM": {
+            "TITLE": "覆盖程序",
+            "MESSAGE": "该程序已经存在。是否要覆盖它？",
+            "CANCEL": "取消",
+            "OVERWRITE": "覆盖"
+        },
+        "NEW_PROGRAM": {
+            "TITLE": "删除程序",
+            "MESSAGE": "此操作将删除当前工作空间。删除当前工作空间吗？",
+            "CANCEL": "取消",
+            "DELETE": "删除"
+        },
+        "ERROR_ROBOT_CONNECTION": {
+          "TITLE": "Robot connection error",
+          "MESSAGE": "Try to reconnect to the robot",
+          "CLOSE": "Close"
+        },
+        "ACCEPT_RGPD": {
+          "TITLE": "GDPR Consent",
+          "TEXT": "Please accept our terms of use.",
+          "ACCEPT": "Consent",
+          "DECLINE": "Decline",
+          "LINK_TO_TERMS": "Terms and conditions"
+        },
+        "LAUNCH_AUTO_DIAGNOSIS": {
+          "TITLE": "Launch auto diagnosis",
+          "INTRO": "Note: To carry out the auto-diagnosis, the robot must first be calibrated and have an internet connection.",
+          "TEXT": "Caution: During the auto-diagnosis, the robot makes movements. The area around the robot must be clear.",
+          "OK": "OK",
+          "CANCEL": "Cancel"
+        },
+        "UPDATE_MOTORS": {
+            "TITLE": "Update motors",
+            "TEXT": "Be careful, the robot will restart. Once restarted, the engines will be updated.",
+            "ACCEPT": "Ok",
+            "DECLINE": "Cancel"
+        }
+    },
+    "VISION": {
+        "WORKSPACE": "工作区",
+        "WORKSPACES": "工作区",
+        "SELECT_WORKSPACE": "选择工作区",
+        "MOVE_TO_POSITION": "移至该位置",
+        "SAVE_POSITION": "保存位置",
+        "DELETE_POSITION": "删除位置",
+        "SAVE_WORKSPACE": "保存工作区",
+        "DELETE_WORKSPACE": "删除工作区",
+        "STREAMING_SETTINGS": "视频流设置",
+        "ENABLE_VISION": "启用视觉模块",
+        "DISABLE_VISION": "禁用视觉模块",
+        "BRIGHTNESS": "亮度",
+        "CONTRAST": "对比",
+        "SATURATION": "色彩饱和度",
+        "DEBUG_EXPLAINATION": "调试模式将显示标记和找到的对象的位置",
+        "FILTERS": "过滤器",
+        "ANY": "Any",
+        "RED": "红色",
+        "GREEN": "绿色",
+        "BLUE": "蓝色",
+        "LANDMARKS": "标签",
+        "NONE": "None",
+        "PREVIOUS": "上一个",
+        "NEXT": "下一步",
+        "CREATE_WORKSPACE_STEP_0": "将工作区工具安装到机械臂上，将工作区纸放置在所需位置，然后单击下一个箭头（或按下机器人顶部按钮）",
+        "CREATE_WORKSPACE_STEP_1": "将手臂移至原点标签（左上角），然后单击保存按钮（或按下机器人顶部按钮）",
+        "CREATE_WORKSPACE_STEP_2": "将手臂移至标签2（顺时针），然后单击保存按钮（或按下机器人顶部按钮）",
+        "CREATE_WORKSPACE_STEP_3": "将手臂移至标签3（顺时针），然后单击保存按钮（或按下机器人顶部按钮）",
+        "CREATE_WORKSPACE_STEP_4": "将手臂移至标签4（顺时针），然后单击保存按钮（或按下机器人顶部按钮）",
+        "CREATE_WORKSPACE_STEP_5": "更改工作区名称并单击保存按钮（或按下机器人顶部按钮）",
+        "MEMO_VISION": "每次要使用视觉功能时，机器人都必须处于观察位置，在该位置相机可以完全看到工作区的4个界标，并且相机应尽可能平行于工作区。",
+        "TIPS_CAMERA_POSITION": "提示：要将相机放置在最佳位置，请选择pitch = 1.57，yaw = 0和row = 0（根据视觉/抓取器进行调整）的位置)",
+        "REFER_TO_USER_MANUAL": "（有关更多信息，请参阅用户手册）",
+        "OK": "好的",
+        "VISUALIZATION": "可视化"
+    },
+    "CONVEYOR": {
+        "TITLE": "传送带控制",
+        "CONVEYOR": "传送带",
+        "SCAN": "扫描",
+        "STOP": "停止",
+        "REMOVE": "删除",
+        "CONTROL": "控制",
+        "USED": "已使用",
+        "ENABLED": "已启用",
+        "DISABLED": "已禁用",
+        "SPEED": "速度",
+        "BACKWARD": "后退",
+        "FORWARD": "前进",
+        "SELECT_DIRECTION": "选择方向",
+        "UPDATE_ID_TITLE": "设置传送带ID",
+        "UPDATE_ID_TEXT": "将传送带设置为：",
+        "UPDATE_ID_BUTTON": "更新"
+    },
+    "PROGRAM": {
+        "PROGRAM": "程序",
+        "PROGRAMS": "程序",
+        "PROGRAM_AUTORUN": "程序自动运行",
+        "TRIGGERED_BY_TOP_BUTTON": "由顶部按钮触发",
+        "SELECT_PROGRAM": "选择程序",
+        "NAME": "名称",
+        "DESCRIPTION": "描述",
+        "SAVE_AS": "另存为",
+        "PYTHON": "Python脚本",
+        "BLOCKLY": "Blockly程序",
+        "BOTH": "两者",
+        "NEW" : "新建",
+        "SAVE" : "保存",
+        "LOAD" : "加载",
+        "SAVE_LOCALY": "保存在计算机上",
+        "SAVE_ON_ROBOT": "保存至机器人",
+        "CREATE_NEW_PROGRAM": "创建新程序",
+        "LOAD_LOCALY": "从计算机加载",
+        "LOAD_FROM_ROBOT": "从机器人加载",
+        "EXECUTE_PROGRAM":"执行程序",
+        "CANT_EXECUTE_PROGRAM": "无法执行程序。不是python程序",
+        "OPEN_IN_NIRYO_BLOCKS":"在Niryo块中打开程序",
+        "CANT_OPEN_IN_NIRYO_BLOCKS": "无法在Niryo块中打开程序。没有Blockly程序",
+        "UPLOAD_PYTHON_PROGRAM": "上传Python程序至机器人",
+        "UPLOAD": "上传",
+        "UPLOAD_PROGRAM": "上传程序",
+        "UPLOAD_PROGRAM_INFO": "程序应使用Python ROS包装器",
+        "AUTORUN":{
+            "CURRENT_AUTORUN": "默认程序",
+            "SELECT_PROGRAM": "更改默认程序",
+            "SELECT_PROGRAM_MODE": "选择模式",
+            "LOOP": "循环",
+            "ONE_SHOT": "一次",
+            "DISABLE": "禁用",
+            "NO_PROGRAM" : "没有默认程序",
+            "SELECT" : "选择"
+        }
+    },
+    "GLOBAL": {
+      "NEED_HELP": "Need help",
+      "FEATURE_NOT_AVAILABLE": "Feature not available in this version. Only available with Ned 2"
+  
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "supported_languages": [
+        "en",
+        "fr",
+        "de",
+	    "ru",
+        "zh"
+    ],
+    "default_language": "en"
+}
